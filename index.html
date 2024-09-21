@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Multiple Timers App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="containt">
+      <h1>Multiple Timers App</h1>
+      <section class="timer-input">
+        <label for="minutes">Minutes:</label>
+        <input type="number" id="hours" min="0" placeholder="hh" />:
+        <input type="number" id="minutes" min="0" placeholder="mm" />:
+        <input type="number" id="seconds" min="0" placeholder="ss" />
+
+        <button id="start-timer">Set</button>
+      </section>
+      <div class="currentTimerHeading">
+        <h4>Current Timers</h4>
+      </div>
+      <section id="active-timers">
+        <!-- Active timers will be dynamically inserted here -->
+      </section>
+
+      <audio id="alert-sound" src="src/microwave-timer.mp3"></audio>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

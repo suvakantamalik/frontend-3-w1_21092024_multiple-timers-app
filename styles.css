@@ -1,0 +1,92 @@
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-size-adjust: 48px;
+}
+.containt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.timer-input {
+  width: 849px;
+  height: 132px;
+  background-color: #34344a;
+  color: #ffffff;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+
+  margin-bottom: 30px;
+}
+input {
+  background-color: transparent;
+  border: transparent;
+  color: #ffffff;
+  font-weight: 700;
+  width: 50px;
+  margin: 2px;
+}
+button {
+  background-color: #f0f757;
+  font-weight: 700;
+  border: transparent;
+  border-radius: 26px;
+  height: 52px;
+  width: 124px;
+}
+
+.currentTimerHeading {
+  width: 413px;
+  /* height: 66px; */
+  background-color: #34344a;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 24px;
+  border-radius: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h4 {
+  text-align: center;
+}
+
+.timer-input,
+#active-timers {
+  margin: 20px;
+}
+
+.timer-display {
+  width: 849px;
+  background-color: #34344a;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px 0;
+  color: #ffffff;
+
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.timer-ended {
+  background-color: #f0f757;
+}
+.stop-timer {
+  background-color: #f0f757;
+  color: black;
+}
